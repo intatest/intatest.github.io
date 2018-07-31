@@ -1,0 +1,18 @@
+
+div.custom-separator-border-bottom
+{
+  border-bottom: 1px solid;
+  margin: .8em 0;
+}
+
+.custom-separator-black
+{
+  border-color: #606060;
+  color: #606060;
+}
+
+.custom-separator-green
+{
+  border-color: #848c10;
+  color: #848c10;
+}

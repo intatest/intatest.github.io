@@ -1,0 +1,508 @@
+/**** Estilos  generales****/
+/*Primer Nivel (Acerca De, ID, Tematicas)*/
+#block-menu-menu-nuevo-menu-principal UL LI
+{
+	float: left;
+	list-style-type: none;
+	list-style-image: none;
+	text-transform: uppercase;
+}
+#block-menu-menu-nuevo-menu-principal
+{
+	margin-top: 18px;
+	float: right;
+	margin-bottom: 19px;
+}
+#block-menu-menu-nuevo-menu-principal UL LI A
+{
+	padding: 10px 15px;
+	border: solid 1px #FFF;
+	font-weight: bold;
+	color: #888;
+	font-size: 110%;
+}
+#block-menu-menu-nuevo-menu-principal UL LI A:hover
+{
+	border: solid 1px #CCC;
+	text-decoration: none;
+	background: #00738B;
+	color: #FFF;
+}
+.active.menu-minipanel.qtip-hover
+{
+	background: #00738B;
+	color: #FFF !important;
+}
+/*Caja Contenedora (Mini panel)*/
+.qtip-contentWrapper, .qtip-content
+{
+	background: none !important;
+	height: 350px;
+}
+.qtip
+{
+	/*width: 1300px !important;*/
+	/*left: 50% !important;*/
+	/*margin-left: -750px !important;*/
+	margin-top: 36px;
+}
+.qtip-content
+{
+	background: url('../images/bg-transparent-menu.png') !important;
+	padding-top: 15px !important;
+}
+.qtip-content A
+{
+	color: #666;
+}
+/*Segundo nivel */
+.qtip .sf-main-menu LI A
+{
+	font-size: 18px;
+	background: #EFEFEF;
+	color: #000;
+	margin-bottom: 5px;
+	font-size: 24px;
+	padding-left: 25px;
+	margin-right: 30px;
+	text-decoration: none;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+.qtip .sf-main-menu
+{
+	width: 500px;
+}
+.qtip .sf-main-menu LI A.menuparent
+{
+	background-image: url('../images/flecha_right.png') !important;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.qtip .sf-main-menu LI A.menuparent:hover
+{
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-image: url('../images/flecha_right_hover.png') !important;
+}
+.qtip .sf-main-menu LI A:hover
+{
+	background: #1BA9C5;
+	color: #FFF;
+}
+/*Tercer nivel*/
+.qtip .sf-menu UL
+{
+	width: 100% !important;
+	position: absolute !important;
+	right: 0 !important;
+	font-size: 20px !important;
+	margin-left: 0px !important;
+	padding-left: 20px;
+	padding-left: 0 !important;
+	padding: 10px 0px 0px !important;
+	border-left: solid 1px #CCC;
+	height: 320px;
+	background: #FFF;
+}
+.qtip .sf-menu UL LI A
+{
+	background: none;
+	font-size: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.qtip .sf-menu UL LI A:hover
+{
+	background: none;
+	color: #1BA9C5;
+}
+/****Acerca De*****/
+.qtip #panel-superfish-acercade
+{
+	width: 500px;
+}
+#panel-superfish-acercade .sf-item-4:hover UL
+{
+	top: -200% !important;
+}
+#panel-superfish-acercade .sf-item-3:hover UL
+{
+	top: -30% !important;
+}
+/****ID****/
+.qtip #panel-superfish-id .sf-menu UL LI
+{
+	float: left !important;
+	width: 50%;
+}
+.qtip #panel-superfish-id .sf-menu UL
+{
+	width: 750px !important;
+}
+.qtip #panel-superfish-id .sf-item-3 UL LI
+{
+	float: none !important;
+}
+/***** Tematicas*****/
+#panel-superfish-tematicas .sf-item-4:hover UL
+{
+	top: -120% !important;
+}
+#panel-superfish-tematicas .sf-item-3:hover UL
+{
+	top: -50% !important;
+}
+#panel-superfish-tematicas .sf-item-5:hover UL
+{
+	top: -100% !important;
+}
+/****Sedes en el pais****/
+/*Estilizacion subtexto boton*/
+.texto-menu
+{
+	font-size: 16px;
+	display: block;
+	top: -5px;
+	position: relative;
+}
+UL#om-menu-om---sedes-en-el-pais LI A
+{
+	font-size: 24px;
+	padding-bottom: 15px;
+	padding-top: 18px;
+	background: #EFEFEF;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 5px;
+	display: block;
+	width: 330px;
+	text-align: right;
+	color: #000;
+}
+UL#om-menu-om---sedes-en-el-pais LI A:hover
+{
+	background: #1BA9C5;
+	color: #FFF;
+}
+UL#om-menu-om---sedes-en-el-pais LI A.active
+{
+	background-image: url('../images/flecha_left.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+UL#om-menu-om---sedes-en-el-pais LI A.active:hover
+{
+	background-image: url('../images/flecha_left_hover.png');
+}
+UL#om-menu-om---sedes-en-el-pais
+{
+	float: right;
+}
+LI.leaf-centros-de-investigaci-n-e-institutos .om-maximenu-content
+{
+	margin-top: -90px !important;
+}
+/*Ajustes Sede Central*/
+LI.leaf-sede-central .om-maximenu-content
+{
+	margin-top: -185px !important;
+}
+LI.leaf-sede-central .om-maximenu-content A
+{
+	font-weight: normal;
+	/*font-size: 13px !important;*/
+}
+.menu-block-9 LI
+{
+	list-style-type: none !important;
+	list-style-image: none !important;
+	display: flex !important;
+	display: -webkit-flex !important;
+	align-items: center;
+}
+/**** Fixed Explorer ****/
+UL#om-menu-om---sedes-en-el-pais LI
+{
+	height: auto;
+	background: #EFEFEF !important;
+	margin-bottom: 5px;
+}
+UL#om-menu-om---sedes-en-el-pais
+{
+	width: 400px;
+	height: 330px;
+}
+.om-maximenu .om-maximenu-middle
+{
+	width: 920px !important;
+	margin-top: 20px;
+	background: #FFF;
+	float: right !important;
+}
+#panel-superfish-sedes .block-inner
+{
+	margin-right: -25px !important;
+	padding-right: 0 !important;
+}
+/*Submenu OM Maximenu (todo abierto)*/
+.om-maximenu .om-maximenu-middle
+{
+	width: 940px;
+	margin-top: 20px;
+	background: #FFF;
+}
+.om-maximenu-middle LI
+{
+	float: left !important;
+	width: 280px !important;
+	height: 62px !important;
+	margin-right: 5px !important;
+	padding-left: 10px;
+}
+.om-maximenu-middle LI.expanded
+{
+	background: none !important;
+	list-style-type: none !important;
+	list-style-image: none !important;
+}
+.om-maximenu-middle .edit-block A
+{
+	font-size: 14px !important;
+	width: 100px !important;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	color: #000 !important;
+	display: none !important;
+}
+.om-maximenu-middle LI A
+{
+	padding-top: 5px !important;
+	padding-bottom: 0 !important;
+	font-size: 15px !important;
+	background: none !important;
+	font-weight: bold;
+	color: #000;
+	padding-left: 0 !important;
+	margin-bottom: 0px !important;
+	width: auto !important;
+	text-align: left !important;
+	line-height: 120% !important;
+}
+.om-maximenu-middle LI A:hover
+{
+	color: #1BA9C5 !important;
+}
+.om-maximenu-middle H3
+{
+	display: none !important;
+}
+/*Submenu Centros de Investigacion (ajuste de cajas)*/
+.block-menu_block-id-5 LI
+{
+	height: 150px !important;
+	line-height: 120%;
+	padding-top: 10px;
+}
+A.link-centros-regionales-y-estaciones-experimentales-agropecuarias, A.link-centros-de-investigaci-n-e-institutos
+{
+	height: 50px !important;
+}
+/*Ultima rama (links bien chiquitos)*/
+.om-maximenu-middle LI UL LI A
+{
+	font-weight: normal;
+	margin-right: 5px !important;
+	padding-right: 5px !important;
+	font-size: 12px !important;
+	width: auto !important;
+	line-height: 100% !important;
+}
+.om-maximenu-middle LI UL LI
+{
+	list-style-type: none;
+	list-style-image: none;
+	margin-left: 0;
+	padding-left: 0;
+	display: inline !important;
+	float: left !important;
+	width: auto !important;
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+	border-right: none;
+}
+.om-maximenu-middle LI UL
+{
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+	padding-top: 0 !important;
+	margin-top: 0 !important;
+}
+.om-maximenu-middle LI UL LI
+{
+	height: auto !important;
+}
+.block-menu_block-id-5 LI UL LI
+{
+	float: none !important;
+}
+.block-menu_block-id-5 LI UL LI A
+{
+	padding-bottom: 0 !important;
+}
+/**** Servicios ****/
+#panel-superfish-servicios UL LI A
+{
+	font-size: 16px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 2px;
+	margin-right: 0;
+}
+#panel-superfish-servicios
+{
+	margin-top: -10px;
+}
+#superfish-5
+{
+	float: right;
+}
+#panel-superfish-servicios UL LI
+{
+	margin-bottom: 0;
+}
+/**** Biblioteca Virtual ****/
+#panel-superfish-biblioteca UL LI A
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	margin-left: 10px;
+}
+#panel-superfish-biblioteca UL LI A.menuparent
+{
+	background-image: url('../images/flecha_left.png') !important;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#panel-superfish-biblioteca UL LI A.menuparent:hover
+{
+	background-image: url('../images/flecha_left_hover.png') !important;
+}
+#panel-superfish-biblioteca UL LI
+{
+	width: 400px !important;
+	text-align: right;
+}
+#panel-superfish-biblioteca
+{
+	float: right !important;
+	margin-right: 30px;
+}
+#panel-superfish-biblioteca UL LI UL
+{
+	left: -400px !important;
+	border-right: solid 1px #CCC;
+	border-left: none;
+	padding-right: 20px;
+	right: 20px !important;
+	height: 320px !important;
+}
+#panel-superfish-biblioteca LI.sf-item-5:hover UL
+{
+	top: -70% !important;
+}
+#panel-superfish-biblioteca LI.sf-item-4:hover UL
+{
+	top: -50% !important;
+}
+UL#superfish-6 LI A
+{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+UL#superfish-6 LI UL LI A
+{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+/*Otros estilos*/
+.qtip #panel-superfish-servicios
+{
+	float: right;
+	width: 550px;
+}
+.qtip #panel-superfish-biblioteca
+{
+	float: right;
+	width: 350px;
+}
+.qtip #panel-superfish-sedes .sf-depth-4
+{
+	background: #CCC;
+}
+.qtip .sf-menu LI.menuparent:hover UL
+{
+	position: absolute !important;
+	top: 0% !important;
+}
+.qtip .sf-menu LI.sf-item-2:hover UL
+{
+	top: -100% !important;
+}
+.qtip .sf-menu LI.sf-item-3:hover UL
+{
+	top: -200% !important;
+}
+.qtip .sf-menu LI.sf-item-4:hover UL
+{
+	top: -300% !important;
+}
+.sf-megamenu-wrapper
+{
+	background: #EFEFEF;
+	left: -650px !important;
+	width: 900px !important;
+	height: 360px !important;
+}
+.sf-megamenu-wrapper LI
+{
+	width: 250px !important;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*UL#superfish-1 LI.sf-item-5:hover UL
+{
+	top: -400% !important;
+}*/
+.qtip .sf-menu
+{
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+}
+UL.sf-menu
+{
+	margin-bottom: 0;
+}
+/**/
+UL.sf-menu A:link, UL.sf-menu A:visited
+{
+}
+UL.sf-menu LI
+{
+}
+UL.sf-menu LI:hover, UL.sf-menu LI.sfHover
+{
+	outline: 0;
+}
+UL.sf-menu A
+{
+}
+UL.sf-menu A:focus, UL.sf-menu A:hover, UL.sf-menu A:active
+{
+	outline: 0;
+}

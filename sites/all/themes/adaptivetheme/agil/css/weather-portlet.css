@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Meteocons';
+    src: local('Meteocons'), url('meteocons.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.weather-portlet .weather-box{
+  font-family: "Helvetica", Arial, sans-serif;
+  background: rgba(1,26,54,1);
+  background: -moz-linear-gradient(top, rgba(1,26,54,1) 0%, rgba(24,101,173,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(1,26,54,1)), color-stop(100%, rgba(24,101,173,1)));
+  background: -webkit-linear-gradient(top, rgba(1,26,54,1) 0%, rgba(24,101,173,1) 100%);
+  background: -o-linear-gradient(top, rgba(1,26,54,1) 0%, rgba(24,101,173,1) 100%);
+  background: -ms-linear-gradient(top, rgba(1,26,54,1) 0%, rgba(24,101,173,1) 100%);
+  background: linear-gradient(to bottom, rgba(1,26,54,1) 0%, rgba(24,101,173,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#011a36', endColorstr='#1865ad', GradientType=0 );
+  width: 227.312px;
+  font-size: 8px;
+}
+
+.weather-portlet .top-weather-box{
+  color:white;
+  padding: 1em;
+}
+
+.weather-portlet p.rain{
+  font-size: 13px !important;
+  margin-bottom: 0em;
+  margin-top: 0px;
+}
+
+.weather-portlet p.real-feel-and-wind{
+  font-size: 11px !important;
+  margin-top: 5px;
+  margin-bottom: 0em;
+}
+
+.weather-portlet i.weather-icon {
+  font-family: "Meteocons";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+  padding-right: 0.2em;
+}
+
+.weather-portlet p.temperature{
+  font-size: 42px;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.weather-portlet p.humidity {
+  text-align: right;
+  font-size: 11px;
+  margin-top: -7.3em;
+  padding-right: 1em;
+}
+
+.weather-portlet p.temperature-max-min{
+  text-align: right;
+  padding-right: 1em;
+  font-size: 10px;
+  margin-bottom: 0em;
+  margin-top: -2.5em;
+}
+
+.weather-portlet .bottom-weather-box{
+  background-color: white;
+  -webkit-box-shadow: inset 0px 0px 44px -1px rgba(0,0,0,0.20);
+  -moz-box-shadow: inset 0px 0px 44px -1px rgba(0,0,0,0.20);
+  box-shadow: inset 0px 0px 44px -1px rgba(0,0,0,0.20);
+  padding-bottom: 0.2em;
+  padding-top: 0.5px;
+}
+
+.weather-portlet .bottom-weather-box ul{
+  padding-left: 1em;
+  margin-left: 1em;
+  margin-top: .2em;
+}
+
+.weather-portlet .bottom-weather-box ul li{
+  list-style-type: none;
+}
+
+.weather-portlet .bottom-weather-box ul li a{
+  text-decoration: none;
+  text-align: left;
+  color: #326e94;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.weather-portlet .bottom-weather-box ul li a:hover{
+  color: #0579C3;
+}
+
+.weather-portlet .bottom-weather-box ul li.weather-station-name{
+  font-size: 15px;
+  color: #848C10;
+  font-weight: 700;
+}
+
+.weather-portlet .bottom-weather-box ul li.weather-station{
+  font-size: 11px;
+  color: gray;
+  font-weight: 700;
+}
+
+
+.weather-portlet .bottom-weather-box ul li.weather-date{
+  font-size: 9px;
+  color: grey;
+  font-style: italic;
+}
+
+.weather-portlet .bottom-weather-box ul li.historic-data{
+  text-align: right;
+  padding-right: 2em;
+}
+
+.weather-portlet .select-estacion-container {
+  text-align: left;
+  margin-top: 4px;
+}
+
+.weather-portlet .select-estacion-container .chosen-container.chosen-container-single {
+  width: 75% !important;
+}
+
+.weather-portlet .select-estacion-container .submit-id-estacion-link {
+  margin-top: 3px;
+  margin-left: 4px;
+  float: right;
+}
+
+.weather-portlet .select-estacion-container .cancel-submit-id-estacion-link {
+    margin-top: 3px;
+    margin-right: 4px;
+    float: left;
+}
+
+.weather-portlet .select-estacion-container .cancel-submit-id-estacion-link,
+.weather-portlet .select-estacion-container .submit-id-estacion-link {
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+}
+
+.weather-portlet .select-estacion-container .cancel-submit-id-estacion-link:hover,
+.weather-portlet .select-estacion-container .submit-id-estacion-link:hover {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.15);
+  -moz-box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.15);
+  box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.15);
+}
+
+.weather-portlet .select-estacion-container ul.chosen-results {
+  padding-left: 0px;
+  margin-left: 2px;
+}
+
+.weather-portlet p.loading {
+  padding: 3px;
+  float: right;
+  margin: 0px;
+  display: none;
+}

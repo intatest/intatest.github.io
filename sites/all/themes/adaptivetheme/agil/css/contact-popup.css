@@ -1,0 +1,59 @@
+.contact-popup,
+.event-registration-popup,
+.sedes-dependientes-popup
+{
+  display: none;
+}
+
+.contact-popup,
+.event-registration-popup,
+.sedes-dependientes-popup
+{
+  width: 50%;
+  margin: 0 auto;
+  background: white;
+  padding: 2%;
+}
+
+.contact-popup .form-item INPUT,
+.contact-popup .form-item TEXTAREA,
+.event-registration-popup .form-item INPUT,
+.event-registration-popup .form-item TEXTAREA
+{
+  width: 100% !important;
+}
+
+.event-registration-popup .chosen-container
+{
+  width: auto !important;
+}
+
+#field-locazation-collection-values .field-type-text
+{
+  float: none !important;
+  margin-bottom: 10px;
+}
+
+#field-locazation-collection-values .chosen-container
+{
+  width: 400px !important;
+}
+
+.contact-popup .form-actions,
+.event-registration-popup .form-actions
+{
+  text-align: right;
+}
+
+.contact-popup .well-title,
+.event-registration-popup .well-title,
+.sedes-dependientes-popup .well-title
+{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #00738B;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid #00738B;
+  font-weight: bold;
+}

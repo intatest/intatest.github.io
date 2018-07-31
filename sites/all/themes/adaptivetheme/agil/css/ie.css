@@ -1,0 +1,45 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+.resultados-3col tr, .resultados-4col tr {
+display: inline-block;
+}
+.resultados-3col table, .resultados-4col table {
+}
+.resultados-3col table tr td, .resultados-4col table tr td {
+}
+.resultados-4col tr td img, .resultados-3col tr td img {
+width: 100% !important;
+max-width: 300px !important;
+}
+.slideshow-home-block img {
+max-width: 500px !important;
+}
+.slideshow-home-block {
+position: relative !important;
+}
+.slide-box {
+/*width: auto;*/
+}
+.resultados-3col table, .resultados-4col table {
+width: auto !important;
+}
+.resultados-3col table tr td {
+min-width: 300px;
+max-width: 300px;
+}
+.resultados-4col table tr td {
+max-width: 300px;
+}
+.layout-unidad .resultados-3col table tr td {
+min-width: 33%;
+max-width: 33%;
+}
+.layout-unidad .resultados-4col table tr td {
+width: 25%;
+min-width: 25%;
+}
+.resultados-busqueda-seccion .views-field-views-conditional, .resultados-busqueda-seccion .views-field-views-conditional-3, .resultados-busqueda-seccion .views-field-field-inicio {
+min-width: 280px;
+max-width: 280px;
+}
+}

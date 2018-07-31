@@ -1,0 +1,424 @@
+.admin-content-bef .views-widget-filter-secondary
+{
+  display: block;
+  float: none;
+  clear: both;
+}
+
+
+ul#admin-menu-icon ul.dropdown
+{
+  display: none !important;
+}
+
+div.field-type-field-collection.field-name-field-locazation-collection div.field-name-field-pais,
+div.field-type-field-collection.field-name-field-locazation-collection div.field-name-field-provincia {
+  float: left;
+  margin-right: 1.5em;
+}
+
+body.adminimal-theme .autocomplete-deluxe-item {
+  margin-right: 2px !important;
+}
+
+.mceEditor td.mceIframeContainer iframe {
+  max-height: auto !important;
+}
+.mceEditor table {
+  height: auto !important;
+}
+
+
+/* Ui Dialog */
+
+.ui-dialog .ui-dialog-titlebar {
+  padding: .4em;
+}
+
+body.adminimal-theme .ui-dialog .ui-dialog-title {
+  font-size: large;
+  font-weight: 500;
+  line-height: 1em;
+  margin: 5px 6px;
+}
+
+/* References dialogs link in forms */
+
+.field-name-field-relacionados .form-item .field-multiple-table .dialog-links,
+.field-name-field-relacionados .form-item .field-multiple-table .form-item.form-type-textfield {
+  display: inline-block;
+}
+
+/* References Dialog search */
+
+#references-dialog-page table th {
+  font-size: medium;
+  font-weight: 300;
+  padding: 5px 10px;
+}
+
+#references-dialog-page .views-exposed-form label {
+  font-size: large;
+}
+
+.ui-dialog iframe.references-dialog-iframe.ui-dialog-content {
+  padding: 0px;
+}
+
+#references-dialog-page .views-exposed-form .views-exposed-widget {
+  padding: 0px;
+}
+
+body.page-node-add.page-node-add-maquinaria #edit-field-rendimiento-colecion-und-0 > legend,
+body.page-node-edit.node-type-maquinaria #edit-field-rendimiento-colecion-und-0 > legend,
+body.page-node-add.page-node-add-maquinaria #edit-field-potencia-coleccion-und-0 > legend,
+body.page-node-edit.node-type-maquinaria #edit-field-potencia-coleccion-und-0 > legend
+{
+    display: none;
+}
+
+/* Maquinaria form */
+
+body.page-node-add-maquinaria.adminimal-theme #edit-field-potencia-coleccion-und-0-field-potencia-und-0,
+body.page-node-edit.node-type-maquinaria.adminimal-theme #edit-field-potencia-coleccion-und-0-field-potencia-und-0,
+body.page-node-add-maquinaria.adminimal-theme #edit-field-rendimiento-colecion-und-0-field-rendimiento-und-0,
+body.page-node-edit.node-type-maquinaria.adminimal-theme #edit-field-rendimiento-colecion-und-0-field-rendimiento-und-0,
+body.page-node-add-maquinaria.adminimal-theme #edit-field-peso table td .field-name-field-peso-value fieldset,
+body.page-node-edit.node-type-maquinaria.adminimal-theme #edit-field-peso table td .field-name-field-peso-value fieldset
+{
+  border: medium none;
+  float: left;
+  margin-bottom: 0px;
+}
+
+body.page-node-add-maquinaria.adminimal-theme #edit-field-potencia-coleccion-und-0-field-potencia-tipo-unidad,
+body.page-node-edit.node-type-maquinaria.adminimal-theme #edit-field-potencia-coleccion-und-0-field-potencia-tipo-unidad,
+body.page-node-add-maquinaria.adminimal-theme #edit-field-rendimiento-colecion-und-0-field-rendimiento-tipo-unidad,
+body.page-node-edit.node-type-maquinaria.adminimal-theme #edit-field-rendimiento-colecion-und-0-field-rendimiento-tipo-unidad
+{
+  float: left;
+  margin-top: 2.45em;
+  margin-bottom: 0px;
+}
+
+body.page-node-add-maquinaria.adminimal-theme #edit-field-peso table td div.field-name-field-modulo,
+body.page-node-edit.node-type-maquinaria.adminimal-theme #edit-field-peso table td div.field-name-field-modulo
+{
+  float: left;
+  margin-bottom: 0px;
+  margin-top: 4.45em;
+}
+
+body.page-node-add-maquinaria.adminimal-theme #edit-field-peso table td input.form-submit,
+body.page-node-edit.node-type-maquinaria.adminimal-theme #edit-field-peso table td input.form-submit
+{
+  margin-top: 7.95em;
+  margin-left: 4em;
+}
+
+body.page-node-add-maquinaria.adminimal-theme #edit-field-peso table td .field-name-field-peso-value.form-wrapper,
+body.page-node-edit.node-type-maquinaria.adminimal-theme #edit-field-peso table td .field-name-field-peso-value.form-wrapper
+{
+  margin-bottom: 0px;
+}
+
+body.page-node-add-maquinaria.adminimal-theme .group-medidas .field-widget-number.form-wrapper,
+body.page-node-edit.node-type-maquinaria.adminimal-theme .group-medidas .field-widget-number.form-wrapper,
+body.page-node-add-maquinaria.adminimal-theme .group-consumo .field-widget-number.form-wrapper,
+body.page-node-edit.node-type-maquinaria.adminimal-theme .group-consumo .field-widget-number.form-wrapper
+{
+  float: left;
+  margin-right: 3em;
+}
+
+/* Event form */
+
+body.page-node-add-evento.adminimal-theme #edit-field-detalle-sede .form-item label:after,
+body.page-node-edit.node-type-evento.adminimal-theme #edit-field-detalle-sede .form-item label:after
+{
+    color: #f00;
+    content: " *";
+}
+/*Autores formulario */
+div[class$="-field-es-autor-inta-und"] ,
+div[class$="-field-autores-extra-und-0-value"],
+div[class$="-field-autores-und-0-target-id"],
+div[class^="-field-autores-und-0-target-id"]
+{
+       float:left;
+}
+
+
+table[id^="field-autores-values"],
+table[id^="field-autores-extra-values"]
+{
+  width: 25%;
+}
+
+div[class$="-field-es-autor-inta-und"]
+{
+  margin-right: 12px !important;
+}
+div[id^="edit-field-collection-autores-und-"]
+{
+  margin-bottom:0px !important
+}
+
+div[id="field-collection-autores-und-0-field-autores-add-more-wrapper"]
+{
+  width:80%!important;
+}
+
+div[id="edit-field-collection-autores-und-0-field-autores"]
+{
+  width:75%!important;
+}
+
+div[class="tabledrag-toggle-weight-wrapper"]
+{
+  display:none !important;
+}
+
+table[id="field-collection-autores-values"] input[id$="-remove-button"]
+{
+  display:inline;
+  margin-left:800px !important;
+}
+
+table[id^="field-autores-values"] th,
+table[id^="field-autores-values"] .field-multiple-drag,
+table[id^="field-autores-extra-values"] th,
+table[id^="field-autores-extra-values"] .field-multiple-drag
+{
+  display:none !important;
+}
+
+
+table[id^="field-autores-values"] tr.even
+{
+  display:none !important;
+}
+
+div[id^="field-collection-autores-und-"] .clearfix
+{
+  display:none !important;
+}
+
+div[class $="-field-autores-extra-und-0-value"] label,
+div[class $="-field-autores-und-0-target-id"] label,
+div[class $="-field-autores-und-0-target-id"] th,
+div[class $="-field-name-field-autores"] thead,
+{
+  display:none !important;
+}
+
+div[class $="field-type-list-boolean field-name-field-es-autor-inta field-widget-options-onoff form-wrapper"],
+div[class $="form-item form-type-checkbox form-item-field-collection-autores-und-0-field-es-autor-inta-und"]
+{
+  margin-bottom:0px !important;
+}
+
+input[id ^="edit-field-collection-autores-und-"]
+{
+  margin-left: 10px;
+  /*margin-top: 20px;*/
+}
+input[id $="-field-autores-extra-und-0-value"]
+{
+  margin-top: 20px;
+}
+input[id $="-field-es-autor-inta-und"]
+{
+  margin-top: 30px;
+}
+input[id $="-field-autores-und-0-target-id"]
+{
+  margin-top: 20px;
+}
+
+/****************************************/
+/** Formulario Editores y compiladores **/
+/****************************************/
+
+div[class$="-field-compilador-inta-und-0-value"],
+div[class$="-field-compilador-no-inta-und-0-target-id"],
+div[class$="-field-editor-inta-und-0-value"],
+div[class$="-field-editor-no-inta-und-0-target-id"]
+{
+  float:left;
+}
+
+
+table[id^="field-compilador-inta-values"],
+table[id^="field-compilador-no-inta-values"],
+table[id^="field-editor-inta-values"],
+table[id^="field-editor-no-inta-values"]
+{
+  width: 25%;
+}
+
+div[id^="edit-field-collection-compiladores-und-"],
+div[id^="edit-field-collection-editores-und-"]
+{
+  margin-bottom:0px !important
+}
+
+div[id="field-collection-compiladores-und-0-field-compilador-inta-add-more-wrapper"],
+div[id="field-collection-editores-und-0-field-editor-inta-add-more-wrapper"]
+{
+  width:80%!important;
+}
+
+div[id="edit-field-collection-compiladores-und-0-field-compilador-inta"],
+div[id="edit-field-collection-editores-und-0-field-editor-inta"]
+{
+  width:75%!important;
+}
+
+table[id="field-collection-compiladores-values"] input[id$="-remove-button"],
+table[id="field-collection-editores-values"] input[id$="-remove-button"]
+{
+  display:inline;
+  margin-left:800px !important;
+}
+
+table[id^="field-compilador-inta-values"] th,
+table[id^="field-compilador-inta-values"] .field-multiple-drag,
+table[id^="field-compilador-no-inta-values"] th,
+table[id^="field-compilador-no-inta-values"] .field-multiple-drag,
+table[id^="field-editor-inta-values"] th,
+table[id^="field-editor-inta-values"] .field-multiple-drag,
+table[id^="field-editor-no-inta-values"] th,
+table[id^="field-editor-no-inta-values"] .field-multiple-drag
+{
+  display:none !important;
+}
+
+
+table[id^="field-compilador-inta-values"] tr.even,
+table[id^="field-editor-inta-values"] tr.even
+{
+  display:none !important;
+}
+
+div[id^="field-collection-compiladores-und-"] .clearfix,
+div[id^="field-collection-editores-und-"] .clearfix
+{
+  display:none !important;
+}
+
+div[class $="-field-compilador-no-inta-und-0-value"] label,
+div[class $="-field-compilador-inta-und-0-target-id"] label,
+div[class $="-field-compilador-inta-und-0-target-id"] th,
+div[class $="-field-name-field-compilador-inta"] thead,
+div[class $="-field-editor-no-inta-und-0-value"] label,
+div[class $="-field-editor-inta-und-0-target-id"] label,
+div[class $="-field-editor-inta-und-0-target-id"] th,
+div[class $="-field-name-field-editor-inta"] thead
+{
+  display:none !important;
+}
+
+div[class $="form-item form-type-checkbox form-item-field-collection-compiladores-und-0-field-es-autor-inta-und"],
+div[class $="form-item form-type-checkbox form-item-field-collection-editores-und-0-field-es-autor-inta-und"]
+{
+  margin-bottom:0px !important;
+}
+
+input[id ^="edit-field-collection-compiladores-und-"],
+input[id ^="edit-field-collection-editores-und-"]
+{
+  margin-left: 10px;
+}
+
+input[id $="-field-editor-no-inta-und-0-value"],
+input[id $="-field-compilador-no-inta-und-0-value"]
+{
+  margin-top: 20px;
+}
+
+input[id $="-field-compilador-inta-und-0-target-id"],
+input[id $="-field-editor-inta-und-0-target-id"]
+{
+  margin-top: 20px;
+}
+
+
+/*****************************************/
+/*****************************************/
+
+.oculto
+{
+  display:none;
+}
+
+.field-type-text-with-summary .text-summary-wrapper .description
+{
+  display: none;
+}
+
+.field-type-list-boolean.field-widget-options-onoff .form-item label
+{
+  float: left;
+  margin-right: 15px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.field-type-list-boolean.field-widget-options-onoff
+{
+  margin: 30px 0px;
+}
+
+.field-multiple-table tr th.field-label label
+{
+  margin-left: 10px;
+}
+
+body.page-node-add .field-type-text-with-summary .filter-wrapper.form-wrapper,
+body.page-node-edit .field-type-text-with-summary .filter-wrapper.form-wrapper,
+body.page-taxonomy-term-edit .field-type-text-with-summary .filter-wrapper.form-wrapper,
+body.page-admin-structure-taxonomy-tema-add .field-type-text-with-summary .filter-wrapper.form-wrapper,
+body.page-node-add .field-type-text-long .filter-wrapper.form-wrapper,
+body.page-node-edit .field-type-text-long .filter-wrapper.form-wrapper
+{
+  display: none;
+}
+
+.field-type-field-collection.field-name-field-collection-autores .field-multiple-table .field-type-list-boolean input,
+.field-type-field-collection.field-name-field-collection-editores .field-multiple-table .field-type-list-boolean input,
+.field-type-field-collection.field-name-field-collection-compiladores .field-multiple-table .field-type-list-boolean input,
+.form-item.form-type-textfield input.form-text
+{
+  margin: 0px;
+}
+
+table[id^=field-autores-values],
+table[id^=field-autores-values] tr,
+table[id^=field-autores-values] td,
+table[id^=field-autores-extra-values],
+table[id^=field-autores-extra-values] tr,
+table[id^=field-autores-extra-values] td
+{
+  padding-top: 0px;
+  border: none;
+}
+
+body.page-node-add .field-type-entityreference.field-name-field-autores,
+body.page-node-edit .field-type-entityreference.field-name-field-autores,
+body.page-node-add .field-type-text.field-name-field-autores-extra
+body.page-node-edit .field-type-text.field-name-field-autores-extra
+{
+  display: none;
+}
+
+body.page-node-add-video .field-name-field-video,
+body.page-node-edit.node-type-video .field-name-field-video,
+body.page-node-edit.node-type-video .field-name-field-modo-de-carga,
+body.page-node-add-video .field-name-field-modo-de-carga,
+body.page-node-add-evento .field-name-field-cantidad-de-plazas-disponi,
+body.page-node-edit.node-type-evento .field-name-field-cantidad-de-plazas-disponi
+{
+  display: none;
+}
+

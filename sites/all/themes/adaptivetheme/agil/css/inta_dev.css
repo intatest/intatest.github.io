@@ -1,0 +1,104 @@
+body.page-taxonomy-term.tema .view-contenido-de-tema-busqueda.view-display-id-panel_pane_1
+.view-header {
+  display: none;
+}
+
+.block.encabezado-portada {
+  background: #1BA9C5;
+  overflow: hidden;
+}
+
+.view-encabezado-temas .views-field-field-imagen-de-portada img {
+  margin-bottom: -10px;
+}
+
+li.autores-otros {
+  font-style: italic;
+}
+
+.field-div-list-inline,
+.field-div-list-inline div {
+  display: inline-block;
+}
+
+body.page-eventos .form-item.form-type-date-popup .description {
+  display: none;
+}
+
+body.page-taxonomy-term.tema .views-exposed-form .views-widget-sort-by,
+body.page-taxonomy-term.tema .views-exposed-form .views-widget-sort-order,
+body.nodo-portada-busqueda .views-exposed-form .views-widget-sort-by,
+body.nodo-portada-busqueda .views-exposed-form .views-widget-sort-order,
+body.page-busqueda .views-exposed-form .views-widget-sort-by,
+body.page-busqueda .views-exposed-form .views-widget-sort-order,
+body.portada-marca .views-exposed-form .views-widget-sort-by,
+body.portada-marca .views-exposed-form .views-widget-sort-order {
+  display: none;
+}
+
+/* Event registration Popup */
+form.entitytype-inscripcion_al_evento-form .field-name-field-locazation-collection
+input.form-submit,
+form.entitytype-inscripcion_al_evento-form .field-name-field-locazation-collection
+td.field-multiple-drag,
+form.entitytype-inscripcion_al_evento-form .field-name-field-locazation-collection thead {
+  display: none;
+}
+
+/* Fin event registration Popup */
+/* Encabezado de portadas */
+.bloque-encabezado {
+  cursor: pointer;
+}
+
+.bloque-encabezado .red-social a {
+  display: block;
+}
+
+/* Fin encabezado de portadas */
+/* Encabezado resultados de búsqueda portada */
+.resultados-busqueda-seccion.hidden-header .view .view-header {
+  display: none;
+}
+.resultados-busqueda-seccion.formulario-expuesto-busqueda {
+  clear: both;
+}
+/*********************************************/
+
+/* Fix events portlet block */
+.event-portlet-nogroup {
+  overflow-y: auto;
+}
+/****************************/
+
+/* Fix sedes dependientes */
+.unidad-redes-sociales a.sedes-dependientes {
+  font-size: 1em;
+}
+
+/* Cargo persona */
+.view-persona-presentacion .views-field.views-field-field-cargo {
+  font-weight: bold;
+  color: #00738B;
+  margin-bottom: .5em;
+}
+/*****************/
+
+/* Unidad Consejeros */
+.unidad-integrantes.full-width
+{
+  width: 100% !important;
+}
+
+.unidad-integrantes.full-width .block-inner
+{
+  margin-left: 0px;
+}
+/*********************/
+
+/* Proyecto de persona */
+.proyectos-cartera .views-row .node.tipo-de-proyecto-programa-nacional .search-result-proyecto-title a:after
+{
+  content: " (Programa nacional)";
+}
+/***********************/

@@ -1,0 +1,66 @@
+.custom-title-normal
+{
+
+}
+
+
+.custom-title-green a:hover,
+.custom-title-black a:hover
+{
+  color: #3f5aff !important;
+}
+
+.custom-title-black a,
+.custom-title-black,
+.custom-title-black h4,
+.custom-title-black h3,
+.custom-title-black h2,
+.custom-title-black h1
+{
+  color: #606060 !important;
+}
+
+.custom-title-green a,
+.custom-title-green
+{
+  color: #848c10 !important;
+}
+
+div.custom-title-border-bottom
+{
+  border-bottom: 1px solid;
+}
+
+div.mgm_ctools_content_custom_title
+{
+  margin-bottom: 1em;
+}
+
+.custom-title-border-bottom h1,
+.custom-title-border-bottom h2,
+.custom-title-border-bottom h3,
+.custom-title-border-bottom h4,
+.custom-title-border-bottom span,
+.custom-title-border-bottom div
+{
+  display: inline;
+  border-bottom: 4px solid;
+}
+
+
+.custom-title-border-bottom h5,
+.custom-title-border-bottom h6
+{
+  margin-bottom: 0px;
+  padding-bottom: 2px;
+  padding-right: 1em;
+  padding-left: .5em;
+  font-weight: normal;
+  display: inline;
+  border-bottom: 2px solid;
+}
+
+.colorpicker
+{
+  z-index: 9999;
+}
